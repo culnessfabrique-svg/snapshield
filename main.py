@@ -29,6 +29,8 @@ st.markdown("""
 st.title("🛡️ SnapShield")
 st.markdown("##### La piattaforma automatizzata per proteggere e firmare le tue immagini in alta qualità.")
 st.write("---")
+font_size = st.slider("Grandezza del testo", 10, 100, 30)
+opacity = st.slider("Trasparenza", 10, 100, 80)
 
 # Layout a due colonne
 left_col, right_col = st.columns([1, 1])
